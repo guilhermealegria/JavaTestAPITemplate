@@ -1,7 +1,7 @@
 # JavaTestAPITemplate
 
 ### Hi  👋      Olá  👋 
-<br>
+
 - Este projeto tem o intuito de facilitar a imersäo no framework rest-assured.io, tranzendo exemplos de cenários com métodos corriqueiros em api rests: GET, POST, PUT, DELET.
 <br>
 <h3>Utilização</h3>
