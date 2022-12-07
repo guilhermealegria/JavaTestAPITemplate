@@ -35,7 +35,6 @@ public class AppTest {
             .get(app.getUrl() + "restricoes/" + app.getcpfSemRestricao())
         .then()
             .statusCode(204);
-
     }
 
     @Test
@@ -83,8 +82,6 @@ public class AppTest {
         .then()
             .statusCode(201)
             .body(containsString(usuario.get("cpf").toString()));
-        
-
     }
 
     @Test
@@ -114,7 +111,6 @@ public class AppTest {
             .body(containsString("erros"))
             .and()
             .body(containsString(mensagemdeErro));
-
     }
 
     @Test
@@ -141,7 +137,6 @@ public class AppTest {
         .then()
             .statusCode(200)
             .body(containsString("OK"));
-
     }
 
 
